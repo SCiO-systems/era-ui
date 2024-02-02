@@ -1,0 +1,16 @@
+.outcomes {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+}
+
+.outcomes .input-table-custom {
+    width: 100%;
+}
+
+.outcomes .expandable-table {
+    margin-bottom: 20px;
+}

@@ -1,0 +1,14 @@
+.field .p-inputtext{
+    width: 100% !important;
+}
+
+.field .p-datepicker-trigger{
+    position: absolute !important;
+    right: 0 !important;
+    height: 100% !important;
+}
+
+.grey-date{
+    opacity: 50%;
+    pointer-events: none;
+}

@@ -1,0 +1,270 @@
+.matrix {
+    display: flex;
+    width: unset;
+    max-width: 100%;
+    align-self: flex-start;
+    flex-direction: column;
+    gap: 36px;
+}
+
+.matrix .p-datatable {
+    max-width: 100%;
+}
+
+.matrix .p-column-header-content {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.matrix .p-column-header-content .column-header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    gap: 12px;
+}
+.matrix .p-column-header-content .column-header p {
+    margin: 0;
+}
+
+.matrix .p-column-header-content .column-header .p-button {
+    width: 20px !important;
+    height: 20px !important;
+    border-radius: 0 !important;
+    font-size: 14px !important;
+    padding: 4px !important;
+    background-color: white;
+    color: #375a63;
+}
+
+.matrix .matrix-header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 1rem;
+}
+
+.matrix .name {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.matrix .treatment-sites {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.matrix .actions {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+}
+
+.matrix .p-datatable .p-datatable-thead > tr > th {
+    padding: 0.6rem;
+}
+
+.matrix .name .treatment-name {
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    align-items: center;
+    padding: 0.714rem 1rem;
+}
+
+.matrix .name .treatment-name .treatment-control {
+    color: #375a63;
+    height: 15px;
+    width: 15px;
+}
+
+.matrix .name .treatment-name-text {
+    margin: unset;
+    white-space: nowrap;
+}
+
+.matrix .crops {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.matrix .crops p {
+    text-align: center;
+    margin: 0;
+    width: 100%;
+    padding: 0.714rem 1rem;
+    white-space: nowrap;
+}
+
+.matrix .body {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+}
+
+.p-datatable.p-datatable-gridlines .p-datatable-tbody td {
+    padding: 0 !important;
+}
+
+.matrix .p-datatable.p-datatable-gridlines .p-datatable-tbody td .p-button {
+    width: 100%;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+}
+
+.matrix .p-datatable.p-datatable-gridlines .p-datatable-tbody td .p-button-label {
+    font-size: 17px;
+}
+
+.practice.p-dialog {
+    width: 90vw;
+    height: 90vh;
+    max-height: 100vh;
+}
+
+@keyframes pulse {
+    0% {
+        border: 2px solid #d71b1b;
+    }
+
+    100% {
+        border: 2px solid rgba(255, 255, 255, 0);
+    }
+}
+
+.p-multiselect-label {
+    display: flex;
+    gap: 8px;
+}
+
+.p-tooltip {
+    max-width: 220px;
+    white-space:pre-wrap;
+}
+
+.dialog-add-treatment {
+    width: 40%;
+    max-width: 700px;
+}
+.dialog-add-treatment .p-dialog-content {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    padding: 1.5rem;
+}
+
+.dialog-add-treatment .p-dialog-header {
+    padding: 1.5rem 1.5rem 0 1.5rem;
+}
+
+.dialog-add-treatment .p-dialog-content .p-inputtext {
+    width: 100%;
+}
+
+.body-cell {
+    width: 160px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+    display: inline-block;
+    float:left;
+}
+
+.body-cell-text {
+    width: 160px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    padding: 10px !important;
+    text-align: center;
+    white-space: nowrap;
+}
+
+.matrix .p-datatable-emptymessage {
+    padding: 15px;
+    display: flex;
+}
+
+.p-datatable.p-datatable-gridlines .p-datatable-tbody .p-datatable-emptymessage td {
+    border-width: 0;
+}
+
+.matrix .p-column-title	{
+    width: 130px;
+    height: 41px;
+    text-align: center;
+    line-height: 45px;
+}
+
+.column-header {
+    height: 100%;
+}
+
+.checkbox-label-group {
+    padding: 1rem 1rem;
+    font-size: 1rem;
+    color: rgba(0, 0, 0, 0.87);
+    background: #ffffff;
+    border: 1px solid rgba(0, 0, 0, 0.38);
+    transition: background-color 0.2s, border-color 0.2s, color 0.2s, box-shadow 0.2s, background-size 0.2s cubic-bezier(0.64, 0.09, 0.08, 1);
+    appearance: none;
+    border-radius: 4px;
+}
+
+.checkbox-label-group:hover {
+    border-color: rgba(0, 0, 0, 0.87);
+}
+
+.checkbox-label-group .checkbox-label {
+    padding-left: 1rem;
+}
+
+.matrix .actions .delete-button {
+    background-color: white;
+    border: 2px solid #C63737;
+    color: #C63737;
+    border-radius: 2rem !important;
+    width: 28px !important;
+    height: 28px !important;
+}
+.matrix .actions .delete-button:hover {
+    background-color: #C63737;
+}
+
+.matrix .actions .edit-button {
+    background-color: white;
+    border: 2px solid #375a63 !important;
+    color: #375a63;
+    border-radius: 2rem !important;
+    width: 28px !important;
+    height: 28px !important;
+}
+.matrix .actions .edit-button:hover {
+    background-color: #375a63;
+}
+
+.matrix .p-multiselect-label-container {
+    height: 48px;
+}
+
+.p-dialog.practice {
+    width: 80vw;
+    height: 95vh;
+    max-width: 1600px;
+}
+
+.practice .p-dialog-header {
+    padding-bottom: 0;
+}
+
+.copy-advice .p-dialog-content {
+    padding-top: 1.5rem !important;
+}

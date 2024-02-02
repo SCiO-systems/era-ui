@@ -1,0 +1,13 @@
+.field-divider {
+    display: flex;
+    background-color: #a8a8a8;
+}
+
+.field-divider.horizontal{
+    height: 1px;
+    width: 100%;
+}
+.field-divider.vertical{
+    width: 1px;
+    height: 100%;
+}

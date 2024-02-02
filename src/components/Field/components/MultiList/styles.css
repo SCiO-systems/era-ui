@@ -1,0 +1,85 @@
+.field .p-multiselect-chip{
+    display:  flex !important;
+    border-radius: 4px;
+}
+
+.field .p-dropdown {
+    display:  flex !important;
+    flex-direction: row;
+    overflow: hidden;
+    width: 200px;
+    height: 48px;
+}
+
+.definition {
+    cursor: not-allowed !important;
+}
+
+.dropdown-panel-small {
+    width: 150px;
+}
+
+.dropdown-panel-small .p-dropdown-item {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.treatments .p-inputwrapper input {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    padding: 0 12px !important;
+}
+
+.dropdown-panel-small .p-dropdown-item .targetable-item {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.targetable-item {
+    margin: 0;
+    padding: 0;
+}
+
+.treatments .p-inputwrapper .p-inputtext p {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    padding: 0 12px;
+}
+
+.treatments .p-inputwrapper span {
+    padding: 0 !important;
+}
+
+.field .definition-icon {
+    color: #375a63;
+    border: 1px solid #375a63;
+    transition: color .4s, background-color .4s;
+    cursor: pointer;
+    /*display: none;*/
+}
+
+.treatments .field .definition-icon {
+    display: flex;
+}
+
+#inputs .definition-icon {
+    padding: 0;
+}
+
+.definition-overlay {
+    max-width: 50vw;
+}
+
+.definition-overlay h4 {
+    font-size: 19px;
+    font-weight: normal;
+    padding-bottom: 20px;
+}
+
+.p-float-label .p-placeholder {
+    opacity: 1;
+}

@@ -1,0 +1,32 @@
+.add-custom-crop {
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	gap: 12px;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.add-custom-crop .p-float-label {
+	width: 80%;
+}
+
+.add-custom-crop .custom-crop-inputtext {
+	width: 100%;
+}
+
+.add-custom-crop .custom-crop-button {
+	height: 38px;
+}
+
+.dialog-add-treatment .p-dialog-content {
+	padding: 1.5rem !important;
+}
+
+.checkbox-label-group {
+	width: 100%;
+}
+
+.p-dialog {
+	background-color: white;
+}

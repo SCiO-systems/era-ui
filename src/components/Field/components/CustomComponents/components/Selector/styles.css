@@ -1,0 +1,25 @@
+.selector {
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	align-items: center;
+	gap: 15px;
+}
+
+.selector .field {
+	width: unset !important;
+}
+
+.selector p {
+	margin: unset;
+	font-size: 14px;
+}
+
+.selector .p-button {
+	height: 45px;
+}
+
+.selector .p-highlight {
+	background-color: #375a63 !important;
+	color: white !important;
+}

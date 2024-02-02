@@ -1,0 +1,103 @@
+.edit-resource .experiments {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    animation-name: FadeIn;
+    animation-duration: 0.7s;
+    transition-timing-function: ease-in;
+    margin: 0;
+    width: 100%;
+    min-height: calc(100vh - 122px);
+
+    background-image:
+            linear-gradient(
+                    rgba(0, 0, 0, 0.61),
+                    rgba(0, 0, 0, 0.61)
+            ),
+            url(/src/assets/images/editPageBackground.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.edit-resource .experiments .table {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+    width: 60%;
+}
+
+.experiments .description-box {
+    padding-top: 12px;
+    padding-bottom: 0;
+}
+
+.edit-resource .card #header {
+    border-bottom: 2px solid #375a63;
+    margin: 0;
+    padding: 12px 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    max-width: 500px;
+}
+
+.edit-resource .experiments .table .p-datatable {
+    width: 100%;
+}
+
+.edit-resource .experiments .table .p-paginator {
+    justify-content: center;
+}
+
+.add-experiment-fields {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.edit-resource .experiments .p-datatable.p-datatable-sm .p-datatable-tbody td {
+    padding: 0;
+}
+
+.edit-resource .experiments #inputs.p-datatable .p-inputtext, .edit-resource .experiments #inputs.p-datatable .p-dropdown  {
+    text-align: center;
+    border: 0;
+    border-radius: 0 !important;
+    background: transparent;
+    /*padding: 4px;*/
+}
+
+.experiment-actions {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 62px;
+}
+
+.experiment-actions .delete-button {
+    background-color: white;
+    border: 2px solid #C63737;
+    color: #C63737;
+    border-radius: 2rem;
+    width: 28px;
+    height: 28px !important;
+}
+.experiment-actions .delete-button:hover {
+    background-color: #C63737 !important;
+}
+
+.experiment-actions .edit-button {
+    background-color: white;
+    border: 2px solid #375a63 !important;
+    color: #375a63;
+    border-radius: 2rem;
+    width: 28px;
+    height: 28px !important;
+}
+.experiment-actions .edit-button:hover {
+    background-color: #375a63;
+}

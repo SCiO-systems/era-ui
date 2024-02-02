@@ -1,0 +1,7 @@
+.add-item .dropdown {
+	border-radius: 4px !important;
+}
+
+.select-table .p-button.p-disabled {
+	border-color: rgba(0, 0, 0, 0.38) !important;
+}

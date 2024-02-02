@@ -1,0 +1,17 @@
+.map .map-container {
+    display: flex;
+    width: 50%;
+    /*height: 500px;*/
+}
+
+.map .map-container  .leaflet-container {
+    width: 100%;
+    height: 100%;
+}
+
+.custom-div-icon {
+    margin: 12px auto;
+    font-size: 35px;
+    color: #375a63;
+    -webkit-text-stroke: 1px white;
+}

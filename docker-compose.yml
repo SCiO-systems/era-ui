@@ -1,0 +1,9 @@
+version: '3.8'
+
+services:
+  app:
+    image: sciohub/era-ui:${ENV}
+    container_name: era-ui
+    restart: unless-stopped
+    ports:
+      - 3000:80

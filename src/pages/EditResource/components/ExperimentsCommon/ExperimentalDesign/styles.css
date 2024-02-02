@@ -1,0 +1,8 @@
+.experimental-design {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+}

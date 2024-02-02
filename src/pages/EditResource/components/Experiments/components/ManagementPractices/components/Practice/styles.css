@@ -1,0 +1,64 @@
+.modal-practice {
+    display: flex;
+    /*flex-direction: column;*/
+    gap: 12px;
+    margin: 0;
+    justify-content: space-between;
+}
+
+.modal-practice .report {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+    padding: 12px 0;
+    border: 1px solid rgba(0, 0, 0, 0.38);
+    border-radius: 4px;
+}
+
+.modal-practice .report .field-radiobutton {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+}
+
+#status1-label {
+    color: #375a63;
+    font-weight: bold;
+}
+#status2-label {
+    color: rgb(108, 108, 108);
+    font-weight: bold;
+}
+#status3-label {
+    color: #D32F2F;
+    font-weight: bold;
+}
+
+/*.field-radiobutton.status1 .p-radiobutton-icon {*/
+/*    background-color: #375a63;*/
+/*}*/
+
+/*.field-radiobutton.status1 .p-radiobutton-box.p-highlight {*/
+/*    border-color: #375a63;*/
+/*}*/
+
+/*.field-radiobutton.status2 .p-radiobutton-icon {*/
+/*    background-color: rgb(108, 108, 108);*/
+/*}*/
+
+/*.field-radiobutton.status2 .p-radiobutton-box.p-highlight {*/
+/*    border-color: rgb(108, 108, 108);*/
+/*}*/
+
+
+/*.field-radiobutton.status3 .p-radiobutton-icon {*/
+/*    background-color: #D32F2F;*/
+/*}*/
+
+/*.field-radiobutton.status3 .p-radiobutton-box.p-highlight {*/
+/*    border-color: #D32F2F;*/
+/*}*/

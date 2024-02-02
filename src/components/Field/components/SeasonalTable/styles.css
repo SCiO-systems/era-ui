@@ -1,0 +1,8 @@
+.select-table .actions {
+	justify-content: center !important;
+}
+
+.select-table .forms {
+	flex-direction: row;
+}
+

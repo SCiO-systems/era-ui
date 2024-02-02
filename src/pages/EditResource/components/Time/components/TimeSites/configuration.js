@@ -1,0 +1,48 @@
+const configuration = {
+	id: '42427846-00ac-4d36-b3b9-4ae2e9f4b0e9',
+	type: 'input-table',
+	label: '',
+	fieldInformation: '',
+	valid: true,
+	data: 'table',
+	headerButtonLabel: 'Add Time Period',
+	placeholder: 'Press Add Time Period',
+	deleteMessage: 'Do you want to delete this season?',
+	floatingLabel: 'Toggle visible Columns',
+	columns: [
+		{ field: 'site', header: 'Site Name', info: '' },
+		{ field: 'period_name', header: 'Time Period Name', info: '' },
+		// { field: 'rainfall', header: 'Rainfall (mm)', info: '' },
+		// { field: 'max_temp', header: 'Mean Max Temp (°C)', info: '' },
+		// { field: 'mean_temp', header: 'Mean Temp (°C)', info: '' },
+		// { field: 'min_temp', header: 'Mean Min Temp (°C)', info: '' },
+	],
+	content: [
+		{
+			id: 'a616b6d7-3ea5-4259-b1da-90ca26aa7c08',
+			type: 'list',
+			label: '',
+			fieldInformation: '',
+			data: true,
+			valid: false,
+			optionLabel: 'term',
+			col: 'site',
+			editable: false,
+			generatedVocab: true,
+		},
+		{
+			id: 'f13c9e93-a91a-4e21-a6b4-8b4d0f85adcb',
+			type: 'list',
+			label: '',
+			fieldInformation: '',
+			data: true,
+			valid: false,
+			optionLabel: 'term',
+			col: 'period_name',
+			editable: false,
+			generatedVocab: true,
+		},
+	],
+};
+
+export default configuration;

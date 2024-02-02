@@ -1,0 +1,100 @@
+.dashboard {
+    animation-name: FadeIn;
+    animation-duration: 0.7s;
+    transition-timing-function: ease-in;
+    margin: 0;
+    min-height: calc(100vh - 122px);
+}
+
+.dashboard .p-tabview .p-tabview-panels {
+    padding: 1rem !important;
+}
+.dashboard #header.cell {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+
+.dashboard .header {
+    padding: 25px;
+    width: 60%;
+    height: fit-content;
+}
+.dashboard .create-new-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 12px;
+}
+.dashboard .create-new {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    height: fit-content;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    cursor: pointer;
+}
+.dashboard .create-new h4{
+    color: #ffb61d;
+    font-size: 18px;
+    margin: 0;
+}
+.dashboard .create-new i{
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 25px;
+    color: #ffb61d;
+    cursor: pointer;
+}
+
+.dashboard #table.cell {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dashboard #divider.cell {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dashboard .divider {
+    width: 20%;
+    height: 2px;
+    background-color: #c5c5c5;
+    margin: 50px;
+}
+
+.dashboard #search-title.cell {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dashboard #search-bar.cell {
+    /*display: flex;*/
+    align-items: center;
+    justify-content: center;
+}
+
+.login-dialog {
+    width: 30vw !important;
+}
+
+.login-dialog .p-dialog-header-icons {
+    display: none;
+}
+
+.login-dialog .login-dialog-buttons {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.cache-dialog .p-dialog-content {
+    padding-top: 1.5rem !important;
+}

@@ -1,0 +1,9 @@
+.map {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: space-between;
+    width: 100%;
+    gap: 12px;
+    margin: 12px 10px;
+}

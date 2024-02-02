@@ -1,0 +1,58 @@
+.field .p-inputnumber-buttons-stacked {
+    display: flex !important;
+}
+
+.field .p-inputnumber-buttons-stacked input{
+    border-radius: 0;
+}
+.field .p-inputnumber-buttons-stacked .p-inputnumber-button-group button{
+    border-radius: 0 !important;
+    padding: 4px 8px;
+}
+
+.field .p-inputnumber-input {
+    display: flex;
+    height: 100%;
+    border-radius: 0 ;
+}
+.field input.p-inputnumber-input {
+    border-radius: 0;
+}
+
+.field #number.p-dropdown {
+    border-radius: 0 !important;
+}
+
+.field .units {
+    color: #375a63;
+    border: 1px solid #375a63;
+    transition: color .4s, background-color .4s;
+    /*display: none;*/
+}
+
+.treatments .field .units {
+    display: flex;
+}
+
+#inputs .units {
+    padding: 0;
+}
+
+#inputs .suffix {
+    padding: 0;
+}
+
+.number-field .p-dropdown-clear-icon {
+    right: 25%;
+}
+
+.treatments .number-field .p-dropdown-clear-icon {
+    right: 15%;
+}
+.number-field .main-input {
+    min-width: 150px;
+}
+
+.number-field .units-dropdown .p-inputtext {
+    width: 150px;
+}

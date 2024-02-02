@@ -1,0 +1,204 @@
+#inputs.p-datatable {
+    width: 100%;
+    border: 1px solid #8f8f8f;
+    border-radius: 4px;
+}
+
+#inputs.p-datatable .p-inputtext, #inputs.p-datatable .p-dropdown  {
+    text-align: center;
+    border: 0;
+    border-radius: 0 !important;
+    background: transparent;
+    min-width: 150px;
+    height: 30px;
+    min-height: 30px;
+    /*padding: 4px;*/
+}
+
+#inputs.p-datatable .p-inputnumber.p-invalid.p-component > .p-inputtext {
+    box-shadow: inset 0 0 0 1px #B00020, inset 0 0 0 1px #B00020, inset 0 0 0 1px #B00020, inset 0 0 0 1px #B00020;
+}
+
+#inputs.p-datatable .p-calendar.p-invalid {
+    box-shadow: inset 0 0 0 1px #B00020, inset 0 0 0 1px #B00020, inset 0 0 0 1px #B00020, inset 0 0 0 1px #B00020;
+}
+
+#inputs.p-datatable .p-dropdown.p-invalid {
+    box-shadow: inset 0 0 0 1px #B00020, inset 0 0 0 1px #B00020, inset 0 0 0 1px #B00020, inset 0 0 0 1px #B00020;
+}
+
+#inputs.p-datatable .p-dropdown .p-dropdown-label.p-inputtext {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+}
+
+#inputs.p-datatable .p-inputnumber-button-group button {
+    padding: 0;
+}
+
+#inputs.p-datatable .table-header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 28px;
+}
+
+#inputs.p-datatable .p-resizable-column {
+    min-width: 180px;
+}
+
+#inputs .p-column-header-content {
+    justify-content: center;
+}
+
+#inputs.p-datatable .table-header .p-float-label {
+    width: 30%;
+}
+
+#inputs .column-header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+}
+#inputs .column-header p {
+    margin: 0;
+}
+
+#inputs.p-datatable .column-header .p-button {
+    color: #375a63;
+    background-color: white;
+    height: 15px;
+    width: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    padding: 0;
+    font-size: 20px;
+    min-width: 15px;
+}
+
+#inputs.p-datatable .input-table-actions {
+    display: flex;
+    flex-direction: row;
+    padding: 4px;
+    gap: 4px;
+    justify-content: center;
+}
+
+#inputs.p-datatable .input-table-actions #delete.p-button {
+    width: unset;
+    min-width: 25px;
+
+    color: #C63737;
+    background-color: white;
+    border: 1px solid #C63737;
+    padding: 4px;
+
+    height: 25px;
+    border-radius: 25px;
+
+    font-size: 12px;
+}
+
+#inputs.p-datatable .input-table-actions #delete.p-button:hover {
+    color: white;
+    background-color: #C63737;
+    border: 1px solid #C63737;
+}
+
+#inputs.p-datatable .input-table-actions #copy.p-button {
+    width: unset;
+    min-width: 25px;
+
+    color: #375a63;
+    background-color: white;
+    border: 1px solid #375a63;
+    padding: 4px;
+
+    height: 25px;
+    border-radius: 25px;
+
+    font-size: 12px;
+}
+
+#inputs.p-datatable .input-table-actions #copy.p-button:hover {
+    color: white;
+    background-color: #375a63;
+    border: 1px solid #375a63;
+}
+
+
+#inputs.p-datatable .input-table-actions #other.p-button {
+    width: unset;
+    min-width: 25px;
+
+    color: #375a63;
+    background-color: white;
+    border: 1px solid #375a63;
+    padding: 4px;
+
+    height: 25px;
+    border-radius: 25px;
+
+    font-size: 12px;
+}
+
+#inputs.p-datatable .input-table-actions #other.p-button:hover {
+    color: white;
+    background-color: #375a63;
+}
+
+#inputs.p-datatable .input-table-actions #locked{
+    width: 25px;
+    height: 25px;
+    font-size: 12px;
+}
+
+#inputs .p-datepicker-trigger {
+    border: 1px solid #375a63;
+    color: #375a63;
+}
+
+#inputs .p-calendar-w-btn {
+    border-color: transparent;
+}
+
+.input-table-extra-fields .forms {
+    display: flex;
+    flex-direction: column;
+    padding: 12px;
+    gap: 12px;
+}
+
+.p-multiselect-close {
+    visibility: hidden;
+}
+
+
+.treatments .p-datatable-wrapper .p-multiselect.p-component {
+    height: 30px;
+    border-color: transparent !important;
+}
+
+.treatments .p-datatable-wrapper .p-multiselect-label {
+    height: 30px;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+}
+
+.treatments .p-datatable-wrapper .p-multiselect-label .p-multiselect-token {
+
+}
+
+#inputs.p-datatable .cell .p-multiselect {
+    border-color: transparent !important;
+}
+
+.treatments.input-table-custom {
+    width: 100%;
+}

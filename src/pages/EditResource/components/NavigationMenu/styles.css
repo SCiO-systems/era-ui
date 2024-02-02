@@ -1,0 +1,61 @@
+.edit-resource .navigation-menu {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 200px;
+    transition: all 0.3s ease;
+    position: relative;
+}
+
+.edit-resource .navigation-menu #toggle.p-button {
+    position: absolute;
+    top: 12px;
+    right: -52px;
+    width: 40px;
+    height: 40px;
+    z-index: 100;
+    padding: 0;
+}
+.edit-resource .navigation-menu .options {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 12px 24px;
+    gap: 24px;
+    margin-top: 12px;
+    width: 100%;
+}
+.edit-resource .navigation-menu .options .option {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 12px;
+    cursor: pointer;
+    transition: opacity 0.3s ease, display 0s ease;
+
+    /*transition-delay: 0.3s;*/
+}
+.edit-resource .navigation-menu .options .option i {
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+.edit-resource .navigation-menu .options .option p {
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+.edit-resource .navigation-menu .options .option:hover i, .edit-resource .navigation-menu .options .option:hover p {
+    color: #f8c626;
+}
+
+.edit-resource .navigation-menu .options #submit.p-button {
+    transition: opacity 0.3s ease, display 0s ease;
+    margin: auto;
+}

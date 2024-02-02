@@ -1,0 +1,147 @@
+.dashboard .table {
+    width: 90%;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+}
+
+.dashboard .table .p-datatable-tbody tr td{
+    text-align: center;
+}
+
+.dashboard .table .p-column-header-content {
+    justify-content: center;
+}
+.dashboard .table .p-datatable {
+    width: 100%;
+}
+.dashboard .table .toolkit i{
+    cursor: pointer;
+}
+.dashboard .table .toolkit i#edit{
+    color: #ffb61d;
+}
+.dashboard .table .toolkit i#submit{
+    color: #375a63;
+}
+.dashboard .table .toolkit i#delete{
+    color: #929292;
+}
+
+.dashboard .table #status.cell {
+    display: flex;
+    justify-content: center;
+}
+
+.dashboard .table .last-update {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    padding: 5px 0 5px 0;
+}
+
+.dashboard .table .p-datatable-wrapper {
+    overflow: hidden !important;
+}
+
+.dashboard .table .last-update p {
+    margin: unset;
+}
+
+.dashboard .table .p-jc-between {
+    align-items: center;
+}
+.dashboard .table .p-jc-between h4{
+    margin: 0;
+}
+
+.customer-badge {
+    border-radius: 2px;
+    padding: .25em .5rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 12px;
+    letter-spacing: .3px;
+    width: fit-content;
+}
+
+.toolkit.p-grid {
+    justify-content: space-evenly;
+}
+
+.toolkit .p-col-4 {
+    width: unset;
+}
+
+.p-column-filter-overlay {
+    background-color: white;
+    border: solid 1px lightgrey;
+    padding: 12px;
+    box-shadow: 0 3px 1px -2px rgba(0,0,0,.2), 0 2px 2px 0 rgba(0,0,0,.14), 0 1px 5px 0 rgba(0,0,0,.12);
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    min-width: 210px;
+}
+
+.filter-dropdown-option {
+    margin: 0;
+}
+
+.resources .p-column-header-content span {
+    margin-left: auto;
+}
+
+.resources .p-sortable-column-icon {
+    margin-right: auto;
+}
+
+.resources .p-column-filter-menu {
+    margin: 0;
+}
+
+.resources .actions-header .p-column-title {
+    margin-left: 0;
+}
+
+.p-col-12 #status {
+    padding: 0;
+}
+
+.status-badge {
+    padding: 4px 8px;
+    border-radius: 2px;
+}
+
+.status-badge.approved {
+    background-color: #c8e6c9;
+    color: #256029;
+}
+
+.status-badge.rejected {
+    background-color: #ffcdd2;
+    color: #c63737;
+}
+
+.status-badge.ready {
+    background-color: #b3e5fc;
+    color: #23547b;
+}
+
+.status-badge.submitted {
+    background-color: #eccfff;
+    color: #694382;
+}
+.status-badge.rev-edited{
+    background: #FEEDAF;
+    color: #8A5340;
+}
+
+.status-badge.draft{
+    background: lightgrey;
+    color: #232323;
+}
+
+.filter-dropdown-option {
+    text-align: center;
+}

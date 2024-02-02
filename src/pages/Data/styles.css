@@ -1,0 +1,18 @@
+.data-page {
+    min-height: calc(100vh - 122px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.download-button-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 2px;
+    border: 1px solid #375a63;
+    width: 500px;
+    height: 200px;
+    background: white;
+}

@@ -1,0 +1,51 @@
+.edit-resource {
+    display: flex;
+    flex-direction: row;
+    min-height: calc(100vh - 122px);
+}
+
+.edit-resource #step-container {
+    width: calc(100% - 200px);
+    transition: all 0.3s ease;
+}
+
+.p-dialog .p-dialog-content {
+    padding: 5px 1.5rem 1.5rem 1.5rem;
+}
+
+.edit-resource .section .table {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    /*min-height: calc(100vh - 197px);*/
+    gap: 24px;
+    margin: 0;
+    /*min-height: 40vh;*/
+    padding-bottom: 40px;
+    width: 100%;
+}
+
+.edit-resource .section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    animation-name: FadeIn;
+    animation-duration: 0.7s;
+    transition-timing-function: ease-in;
+    margin: 0;
+    gap: 50px;
+    width: 100%;
+    min-height: calc(100vh - 122px);
+
+    background-image:
+            linear-gradient(
+                    rgba(0, 0, 0, 0.61),
+                    rgba(0, 0, 0, 0.61)
+            ),
+            url(/src/assets/images/editPageBackground.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}

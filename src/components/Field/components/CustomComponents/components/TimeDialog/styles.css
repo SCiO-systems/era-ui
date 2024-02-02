@@ -1,0 +1,58 @@
+.time-dialog .fields-row {
+	display: flex;
+	flex-direction: row;
+	gap: 12px;
+}
+
+.time-dialog .fields-column {
+	display: flex;
+	flex-direction: column;
+	gap: 12px;
+}
+.time-dialog {
+	min-width: 985px;
+}
+
+.time-dialog .p-dialog-content {
+	display: flex;
+	flex-direction: column;
+	gap: 12px;
+}
+
+.time-dialog .add-button {
+	width: 200px;
+}
+
+.time-dialog .alt-button {
+	width: 230px;
+}
+
+.p-dialog-content .row-item:last-of-type {
+	display: none;
+}
+
+.time-dialog .button-group {
+	display: flex;
+	flex-direction: row;
+	gap: 12px;
+}
+
+.time-dialog .button-group .p-button {
+	height: 38px;
+}
+
+.time-dialog .p-dropdown-label-empty {
+	min-height: 46px;
+}
+
+.time-dialog .p-datepicker-trigger {
+	border: 1px solid #375a63;
+	color: #375a63;
+	border-top-right-radius: 0 !important;
+	border-bottom-right-radius: 0 !important;
+}
+
+.time-dialog .p-datepicker-trigger:hover {
+	color: white;
+	background-color: #375a63 !important;
+}

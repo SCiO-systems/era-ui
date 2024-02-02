@@ -1,0 +1,9 @@
+.calculator-dialog .p-dialog-content {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 12px;
+}
+
+.calculator .p-dialog-content .p-dropdown {
+	width: unset;
+}

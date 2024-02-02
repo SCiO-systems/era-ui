@@ -1,0 +1,7 @@
+.about {
+    animation-name: FadeIn;
+    animation-duration: 0.7s;
+    transition-timing-function: ease-in;
+    margin: 0;
+    min-height: calc(100vh - 122px);
+}

@@ -1,0 +1,80 @@
+.edit-resource .experiments .experiment-steps .treatments {
+    display: flex;
+    width: 100%;
+}
+.edit-resource .experiments .experiment-steps .treatments .table-header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 28px;
+}
+.edit-resource .experiments .experiment-steps .treatments .p-datatable {
+    width: 100%;
+}
+
+.edit-resource .experiments .experiment-steps .treatments .p-datatable-wrapper {
+    overflow-x: scroll
+}
+
+.edit-resource .experiments .experiment-steps .treatments .p-inputtext {
+    min-width: 100px;
+}
+.edit-resource .experiments .experiment-steps .treatments .p-datatable .p-column-header-content {
+    justify-content: center;
+}
+
+.edit-resource .experiments .experiment-steps .treatments .p-datatable .column-header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+}
+.edit-resource .experiments .experiment-steps .treatments .p-datatable .column-header .p-button {
+    height: 20px;
+    width: 20px;
+    font-size: 20px;
+    background: white;
+}
+.edit-resource .experiments .experiment-steps .treatments .p-datatable .column-header .p-button span {
+    color: #375a63;
+}
+.edit-resource .experiments .experiment-steps .treatments .p-datatable .column-header p {
+    margin: 0;
+}
+
+#inputs table {
+    table-layout: auto !important;
+}
+
+.expandable-table .actions {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 62px;
+}
+
+.expandable-table .actions .delete-button {
+    background-color: white;
+    border: 2px solid #C63737;
+    color: #C63737;
+    border-radius: 2rem;
+    width: 28px;
+    height: 28px !important;
+}
+.expandable-table .actions .delete-button:hover {
+    background-color: #C63737;
+}
+
+.expandable-table .actions .edit-button {
+    background-color: white;
+    border: 2px solid #375a63 !important;
+    color: #375a63;
+    border-radius: 2rem;
+    width: 28px;
+    height: 28px !important;
+}
+.expandable-table .actions .edit-button:hover {
+    background-color: #375a63;
+}

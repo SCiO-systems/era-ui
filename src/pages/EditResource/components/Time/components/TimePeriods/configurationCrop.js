@@ -1,0 +1,58 @@
+const configurationCrop = {
+	id: 'cb718d89-dbbf-41d3-a2c5-044ef8578a21',
+	type: 'input-table',
+	label: '',
+	fieldInformation: '',
+	valid: true,
+	data: 'table',
+	headerButtonLabel: 'Add Time Period',
+	placeholder: 'Press Add Time Period',
+	deleteMessage: 'Do you want to delete this season?',
+	floatingLabel: 'Toggle visible Columns',
+	columns: [
+		{ field: 'period_name', header: 'Time Period Name', info: '' },
+		{ field: 'year', header: 'Year (as stated by author)', info: '' },
+		{ field: 'season', header: 'Season (as stated by author)', info: '' },
+		{ field: 'notes', header: 'Notes', info: '' },
+	],
+	content: [
+		{
+			id: '5fec44e2-cb3c-42ee-91cf-e29c2b1dae54',
+			type: 'text',
+			label: '',
+			fieldInformation: '',
+			data: true,
+			valid: false,
+			col: 'period_name',
+		},
+		{
+			id: '966614d2-16ca-4743-b345-46e076474cc4',
+			type: 'text',
+			label: '',
+			fieldInformation: '',
+			data: true,
+			valid: false,
+			col: 'year',
+		},
+		{
+			id: 'd6fdb665-c507-4ace-9978-f473f2367bc1',
+			type: 'text',
+			label: '',
+			fieldInformation: '',
+			data: true,
+			valid: false,
+			col: 'season',
+		},
+		{
+			id: '01ea13d2-b28b-4ccb-83d5-f22f29b4da66',
+			type: 'text',
+			label: '',
+			fieldInformation: '',
+			data: true,
+			valid: false,
+			col: 'notes',
+		},
+	],
+};
+
+export default configurationCrop;

@@ -1,0 +1,24 @@
+.p-tabview-panels .forms{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    width: 100%;
+}
+
+.p-tabview-title{
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+.p-tabview{
+    width: 100%;
+}
+
+.p-tabview-panels .tab-content {
+    display: flex;
+    width: 100%;
+}
+
+.p-tabview-panels {
+    padding-bottom: 0 !important;
+}

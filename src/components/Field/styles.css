@@ -1,0 +1,107 @@
+.field{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 12px;
+}
+
+.field span#question{
+    color: #375a63;
+    border: 1px solid #375a63;
+    cursor: pointer;
+    transition: color .4s, background-color .4s;
+}
+
+.field span#question:hover{
+    color: white;
+    border: 1px solid #375a63;
+    background-color: #375a63;
+    transition: color .4s, background-color .4s;
+}
+
+.field span#copy{
+    color: #375a63;
+    border: 1px solid #375a63;
+    cursor: pointer;
+    transition: color .4s, background-color .4s;
+}
+
+.field span#copy:hover{
+    color: white;
+    background-color: #375a63;
+}
+
+.field span#info{
+    color: #375a63;
+    border: 1px solid #375a63;
+    transition: color .4s, background-color .4s;
+}
+
+.field span#citation{
+    color: #375a63;
+    border: 1px solid #375a63;
+    cursor: pointer;
+    transition: color .4s, background-color .4s;
+}
+
+.field span#citation:hover{
+    color: white;
+    border: 1px solid #375a63;
+    background-color: #375a63;
+    transition: color .4s, background-color .4s;
+}
+
+.radio-buttons{
+    display: flex;
+    height: 7vh;
+    align-items: center;
+    flex-direction: row;
+    margin-bottom: 1rem;
+}
+.radio-buttons .item{
+    display: flex;
+    flex-direction: row;
+    margin-right: 2vw;
+}
+.radio-buttons .item label{
+    display: flex;
+    margin-left: 4px;
+    align-items: center;
+}
+
+.radio-buttons h5{
+    margin: 0;
+}
+
+.field .p-inputgroup .p-component {
+    border-radius: 4px 0 0 4px !important;
+}
+
+/*INVALID FIELD CSS*/
+.p-inputgroup.invalid-field-value label {
+    color: #C63737 !important;
+}
+
+.p-inputgroup.invalid-field-value input {
+    border: 1px solid rgba(198, 55, 55, 0.38) !important;
+}
+
+.p-inputgroup.invalid-field-value  .p-inputtext:enabled:focus {
+    box-shadow: inset 0 0 0 1px #C63737, inset 0 0 0 1px #C63737, inset 0 0 0 1px #C63737, inset 0 0 0 1px #C63737
+}
+
+.p-inputgroup.invalid-field-value span#question {
+    color: #C63737;
+    border: 1px solid #C63737;
+}
+
+.p-inputgroup.invalid-field-value span#question:hover {
+    color: white;
+    border: 1px solid #C63737;
+    background-color: #C63737;
+}
+
+.invalid-field-value-tooltip .p-tooltip-text {
+    background: rgba(198, 55, 55, 0.9);
+    color: white;
+}

@@ -1,0 +1,66 @@
+.time-component {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    animation-name: FadeIn;
+    animation-duration: 0.7s;
+    transition-timing-function: ease-in;
+    margin: 0;
+    width: 100%;
+    min-height: calc(100vh - 171px);
+
+    background-image:
+            linear-gradient(
+                    rgba(0, 0, 0, 0.61),
+                    rgba(0, 0, 0, 0.61)
+            ),
+            url(/src/assets/images/editPageBackground.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.time-component .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    width: calc(100% - 24px);
+    min-height: calc(100vh - 197px);
+    gap: 24px;
+    margin: 12px;
+}
+
+.time-component .container  #header {
+    border-bottom: 2px solid #375a63;
+    margin: 0;
+    padding: 12px 0;
+}
+
+.section .p-steps {
+    width: 90%;
+    padding: 24px;
+}
+
+.time-component .container  .p-menuitem-link {
+    flex-direction: column;
+}
+
+.step-content {
+    min-height: 30vh;
+    width: 100%;
+    padding: 24px 72px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.time-tables .treatments {
+    max-width: 1600px;
+}
+
+.time-tables .input-table-custom {
+    max-width: 1600px;
+}

@@ -1,0 +1,11 @@
+.field .field-messages{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    padding: 0.5vh;
+}
+
+.red-tooltip .p-tooltip-text {
+    background-color: darkred;
+}

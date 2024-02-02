@@ -1,0 +1,112 @@
+.expandable-table {
+    display: flex;
+    width: 100%;
+
+    border: 1px solid #8f8f8f;
+    border-radius: 4px;
+}
+
+.expandable-table .table-header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 28px;
+}
+.expandable-table .p-datatable {
+    width: 100%;
+}
+
+.expandable-table .forms {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    max-width: 100%;
+    padding: 5px 0 5px 5px;
+    /*width: 80vw;*/
+}
+
+.multi-column {
+    justify-content: space-around;
+    flex-direction: row !important;
+}
+
+.expandable-table .forms .custom-column{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    width: 45%;
+    justify-content: space-evenly;
+}
+
+.add-item {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+#expandable table{
+    table-layout: fixed !important;
+    width: 100%;
+}
+
+.expandable-table .actions {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 62px;
+    gap: 5px;
+}
+
+.expandable-table .actions .delete-button {
+    background-color: white;
+    border: 2px solid #C63737;
+    color: #C63737;
+    border-radius: 2rem;
+    width: 28px;
+    height: 28px !important;
+}
+.expandable-table .actions .delete-button:hover {
+    background-color: #C63737;
+}
+
+.expandable-table .actions .edit-button {
+    background-color: white;
+    border: 2px solid #375a63 !important;
+    color: #375a63;
+    border-radius: 2rem;
+    width: 28px;
+    height: 28px !important;
+}
+.expandable-table .actions .edit-button:hover {
+    background-color: #375a63;
+}
+
+/*.p-datatable-table , .p-datatable-row-expansion {*/
+/*    width: 100%;*/
+/*}*/
+/*.p-datatable-tbody {*/
+/*    width: 100%;*/
+/*}*/
+/*.p-datatable-wrapper {*/
+/*    width: 100% !important;*/
+/*    overflow: scroll !important;*/
+/*}*/
+
+#enableEdit{
+    color: #375a63;
+    border: 1px solid #375a63;
+    cursor: pointer;
+    transition: color .4s, background-color .4s;
+}
+
+#enableEdit:hover{
+    color: white;
+    border: 1px solid #375a63;
+    background-color: #375a63;
+    transition: color .4s, background-color .4s;
+}
+
+.expandable-table .actions .locked-button {
+    width: 28px;
+    height: 28px !important;
+}

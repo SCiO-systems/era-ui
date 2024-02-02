@@ -1,0 +1,84 @@
+.citation-table .left-toolbar{
+    display: flex;
+}
+
+
+.citation-table .left-toolbar .divider{
+    display: flex;
+    width: 1px;
+    height: auto;
+    background-color: lightgray;
+    margin-right: 2vw;
+    margin-left: 2vw;
+}
+
+.citation-table .left-toolbar .p-button.p-button-success {
+    transition: background-color 0.5s;
+    background-color: #375a63;
+}
+.citation-table .left-toolbar .p-button.p-button-success:hover {
+    transition: background-color 0.5s;
+    background-color: #375a63e0;
+}
+
+.citation-table .right-toolbar{
+    display: flex;
+}
+.citation-table .right-toolbar #mandatory.p-button{
+    margin-right: 5px;
+}
+
+.citation-table .actions{
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+}
+
+.citation-table .actions .delete-button {
+    background-color: white;
+    border: 2px solid #C63737 !important;
+    color: #C63737;
+    border-radius: 2rem;
+    width: 28px;
+    height: 28px !important;
+}
+.citation-table .actions .delete-button:hover {
+    background-color: #C63737;
+}
+
+.citation-table .actions .edit-button {
+    background-color: white;
+    border: 2px solid #375a63 !important;
+    color: #375a63;
+    border-radius: 2rem;
+    width: 28px;
+    height: 28px !important;
+}
+.citation-table .actions .edit-button:hover {
+    background-color: #375a63;
+}
+
+/*.p-datatable-table , .p-datatable-row-expansion {*/
+/*    width: 100%;*/
+/*}*/
+/*.p-datatable-tbody {*/
+/*    width: 100%;*/
+/*}*/
+/*.p-datatable-wrapper {*/
+/*    width: 100% !important;*/
+/*    overflow: scroll !important;*/
+/*}*/
+
+#enableEdit{
+    color: #375a63;
+    border: 1px solid #375a63;
+    cursor: pointer;
+    transition: color .4s, background-color .4s;
+}
+
+#enableEdit:hover{
+    color: white;
+    border: 1px solid #375a63;
+    background-color: #375a63;
+    transition: color .4s, background-color .4s;
+}

@@ -1,0 +1,15 @@
+.dashboard .search-bar {
+    margin-bottom: 50px;
+}
+
+.dashboard .search-bar .p-inputtext{
+    width: 100%;
+}
+.dashboard .search-bar .button {
+    display: flex;
+    width: fit-content;
+}
+.dashboard .search-bar .button .p-button{
+    height: 100%;
+    background-color: #ffb61d;
+}

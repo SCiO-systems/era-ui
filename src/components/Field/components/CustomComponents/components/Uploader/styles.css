@@ -1,0 +1,96 @@
+.uploader {
+	display: flex;
+	flex-direction: row;
+	gap: 12px;
+	align-items: center;
+	height: 48px;
+	border: 1px solid rgba(0, 0, 0, 0.38);
+	border-radius: 4px;
+	width: 100%;
+}
+
+.uploader:hover {
+	border-color: rgba(0, 0, 0, 0.87);
+}
+
+.uploader p {
+	margin: 0;
+	padding: 1rem;
+}
+
+.uploader input[type='file'] {
+	display: none;
+}
+
+.uploader.invalid {
+	border-color: darkred;
+}
+
+.uploader.invalid i {
+	color: darkred;
+}
+
+.uploader.invalid .error-message {
+	color: darkred;
+}
+
+.uploader.submitted {
+	border-color: #375a63;
+}
+
+.uploader.submitted i {
+	color: #375a63;
+}
+
+.uploader.submitted .file-name {
+	color: #375a63;
+}
+
+.uploader.loading {
+	border-color: darkgrey;
+}
+
+.uploader.loading i {
+	color: darkgrey;
+}
+
+.uploader.loading .file-name {
+	color: darkgrey;
+}
+
+.uploader .status {
+	margin-left: auto;
+	padding-right: 1rem;
+	font-size: medium;
+}
+
+.uploader .status.progress {
+	width: 40px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-left: auto;
+	margin-right: 0;
+	font-size: medium;
+}
+
+.status.progress .p-progress-spinner-svg {
+	position: unset;
+}
+
+.status.progress .p-progress-spinner-circle {
+	animation: p-progress-spinner-dash 1.5s ease-in-out infinite;
+	stroke: darkgrey;
+}
+
+.uploader i {
+	font-size: 1.8em;
+	color: rgba(0, 0, 0, 0.7);
+	cursor: pointer;
+}
+
+.uploader .custom-file-upload {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}

@@ -1,0 +1,98 @@
+.edit-resource .review-terms {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	animation-name: FadeIn;
+	animation-duration: 0.7s;
+	transition-timing-function: ease-in;
+	margin: 0;
+	width: 100%;
+	min-height: calc(100vh - 122px);
+
+	background-image:
+			linear-gradient(
+					rgba(0, 0, 0, 0.61),
+					rgba(0, 0, 0, 0.61)
+			),
+			url(/src/assets/images/editPageBackground.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+}
+
+.edit-resource .review-terms .card {
+	width: calc(100% - 100px);
+	margin-bottom: 0;
+	gap: 12px;
+	display: flex;
+	flex-direction: column;
+	padding: 20px;
+}
+
+.review-terms .review-field {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 100%;
+	gap: 12px;
+}
+
+.review-terms .review-field .reject-button {
+	background-color: white;
+	border: 2px solid #C63737 !important;
+	color: #C63737;
+	border-radius: 2rem;
+	width: 28px;
+	height: 28px !important;
+}
+.review-terms .review-field .reject-button:hover {
+	background-color: #C63737;
+}
+
+.review-terms .review-field .reject-button.filled {
+	background-color: #C63737;
+	color: white;
+}
+
+.review-terms .review-field .approve-button {
+	background-color: white;
+	border: 2px solid #375a63 !important;
+	color: #375a63;
+	border-radius: 2rem;
+	width: 28px;
+	height: 28px !important;
+}
+
+.review-terms .review-field .approve-button:hover {
+	background-color: #375a63;
+}
+
+.review-terms .review-field .approve-button.filled {
+	background-color: #375a63;
+	color: white;
+}
+
+.approve-button.filled.p-button:disabled {
+	background-color: rgba(55, 90, 99) !important;
+	color: rgba(255, 255, 255) !important;
+	opacity: 0.8;
+}
+
+.approve-button.p-button:disabled {
+	background-color: white !important;
+	color: #375a63 !important;
+	opacity: 0.8;
+}
+
+.reject-button.filled.p-button:disabled {
+	background-color: rgba(198, 55, 55) !important;
+	color: rgba(255, 255, 255) !important;
+	opacity: 0.8;
+}
+
+.reject-button.p-button:disabled {
+	background-color: white !important;
+	color: #C63737 !important;
+	opacity: 0.8;
+}
